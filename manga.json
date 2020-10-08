@@ -1,0 +1,286 @@
+{
+    "manga":[
+        {
+        "title":"Fairy Tail",
+        "numberBook":63,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Ikigami",
+        "numberBook":5,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"To love ru",
+        "numberBook":18,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"To love ru darkness",
+        "numberBook":18,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Blackcat",
+        "numberBook":20,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Kill la kill",
+        "numberBook":3,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Poison City",
+        "numberBook":2,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Love Hina",
+        "numberBook":14,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Red Eyes Sword Akame ga Kill",
+        "numberBook":15,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Chi une vie de chat",
+        "numberBook":12,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Divines",
+        "numberBook":3,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Defense Devil",
+        "numberBook":10,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Doubt",
+        "numberBook":4,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Anguilles démoniaques",
+        "numberBook":3,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"King's game",
+        "numberBook":5,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"King's game extrem",
+        "numberBook":4,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"King's game origin",
+        "numberBook":5,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"King's game spiral",
+        "numberBook":4,
+        "cover":"",
+        "status":"ended"
+    },
+    {
+        "title":"Enfer & Paradis",
+        "numberBook":11,
+        "cover":"",
+        "status":"ended"
+    },
+    {
+        "title":"Kid I Luck",
+        "numberBook":3,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Prophecy",
+        "numberBook":2,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Run Day Burst",
+        "numberBook":8,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"High School of the Dead",
+        "numberBook":8,
+        "cover":"",
+        "status":"ended"
+    },{
+        "title":"Gambling School Twin",
+        "numberBook":8,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Black Butler",
+        "numberBook":28,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Black Lagoon",
+        "numberBook":11,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Freezing",
+        "numberBook":10,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Darwin Game",
+        "numberBook":20,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Tanya The Evil",
+        "numberBook":11,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Moi, quand je me réincarne en Slime",
+        "numberBook":11,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Prison School",
+        "numberBook":10,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Triage X",
+        "numberBook":18,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Bleach",
+        "numberBook":15,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Jormungand",
+        "numberBook":7,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Fairy Tail 100 years quest",
+        "numberBook":5,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Les chaventure de Tai et mamie Sue",
+        "numberBook":2,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Asadora",
+        "numberBook":2,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Aime ton prochain",
+        "numberBook":4,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Monster",
+        "numberBook":4,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Red Eyes Sword Akame ga kill zero",
+        "numberBook":9,
+        "cover":"",
+        "status":"reading"
+    },{
+        "title":"Magical Girl Site",
+        "numberBook":0,
+        "cover":"",
+        "status":"no-buy"
+    },{
+        "title":"Magical Girl of the end",
+        "numberBook":0,
+        "cover":"",
+        "status":"no-buy"
+    },{
+        "title":"Sword Art Online",
+        "numberBook":17,
+        "cover":"",
+        "status":"no-buy"
+    },
+    {
+        "title":"Attache moi",
+        "numberBook":6,
+        "cover":"",
+        "status":"no-buy"
+    },
+    {
+        "title":"Attaque des titans",
+        "numberBook":4,
+        "cover":"",
+        "status":"no-buy"
+    },
+    {
+        "title":"Dofus",
+        "numberBook":15,
+        "cover":"",
+        "status":"no-buy"
+    },{
+        "title":"Stein's Gate",
+        "numberBook":1,
+        "cover":"",
+        "status":"no-buy"
+    },
+    {
+        "title":"Toriko",
+        "numberBook":5,
+        "cover":"",
+        "status":"no-buy"
+    },
+    {
+        "title":"Secret",
+        "numberBook":0,
+        "cover":"",
+        "status":"no-buy"
+    },
+    {
+        "title":"Sprite",
+        "numberBook":0,
+        "cover":"",
+        "status":"no-buy"
+    },
+    {
+        "title":"Letter Bee",
+        "numberBook":0,
+        "cover":"",
+        "status":"no-buy"
+    },
+    {
+        "title":"Eyes shield 21",
+        "numberBook":0,
+        "cover":"",
+        "status":"no-buy"
+    },
+    {
+        "title":"DreamLand",
+        "numberBook":0,
+        "cover":"",
+        "status":"no-buy"
+    },{
+        "title":"Ino-Head Gargoyle",
+        "numberBook":3,
+        "cover":"",
+        "status":"no-buy"
+    }
+]
+}
