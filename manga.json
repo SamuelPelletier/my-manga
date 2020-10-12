@@ -46,6 +46,11 @@
         "cover":"",
         "status":"ended"
     },{
+        "title":"Red Eyes Sword Akame ga kill zero",
+        "numberBook":10,
+        "cover":"",
+        "status":"ended"
+    },{
         "title":"Chi une vie de chat",
         "numberBook":12,
         "cover":"",
@@ -124,7 +129,7 @@
         "status":"reading"
     },{
         "title":"Black Butler",
-        "numberBook":28,
+        "numberBook":29,
         "cover":"",
         "status":"reading"
     },{
@@ -144,17 +149,17 @@
         "status":"reading"
     },{
         "title":"Tanya The Evil",
-        "numberBook":11,
+        "numberBook":12,
         "cover":"",
         "status":"reading"
     },{
         "title":"Moi, quand je me réincarne en Slime",
-        "numberBook":11,
+        "numberBook":12,
         "cover":"",
         "status":"reading"
     },{
         "title":"Prison School",
-        "numberBook":10,
+        "numberBook":11,
         "cover":"",
         "status":"reading"
     },{
@@ -184,7 +189,7 @@
         "status":"reading"
     },{
         "title":"Asadora",
-        "numberBook":2,
+        "numberBook":3,
         "cover":"",
         "status":"reading"
     },{
@@ -194,12 +199,7 @@
         "status":"reading"
     },{
         "title":"Monster",
-        "numberBook":4,
-        "cover":"",
-        "status":"reading"
-    },{
-        "title":"Red Eyes Sword Akame ga kill zero",
-        "numberBook":9,
+        "numberBook":4-6,
         "cover":"",
         "status":"reading"
     },{
