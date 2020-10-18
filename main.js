@@ -19,13 +19,13 @@ function loadJSON(callback) {
           var manga = mangaJson[i];
           switch (manga.status) {
             case 'reading':
-                $('#reading').append('<li>'+manga.title+' : '+manga.numberBook+'</li>')
+                $('#reading').append('<li><img src="./cover/'+manga.cover+'">'+manga.title+' : '+manga.numberBook+'</li>')
                 break;
             case 'ended':
-                $('#ended').append('<li>'+manga.title+' : '+manga.numberBook+'</li>')
+                $('#ended').append('<li><img src="./cover/'+manga.cover+'">'+manga.title+' : '+manga.numberBook+'</li>')
                 break;
             case 'no-buy':
-                $('#no-buy').append('<li>'+manga.title+' : '+manga.numberBook+'</li>')
+                $('#no-buy').append('<li><img src="./cover/'+manga.cover+'">'+manga.title+' : '+manga.numberBook+'</li>')
                 break;
             default:
                 break;
