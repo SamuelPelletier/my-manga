@@ -8,21 +8,26 @@
 <body>
 
     <h1>Liste de mes Mangas</h1>    
-    <table>
-      <tr>
-      <th>En cours</th>      
-      <th>Fini</th>     
-      <th>Ne pas acheter !</th>
-      </tr>
 
-      <tr>        
-      <td><ul id="ended"></ul></td>
-      <td><ul id="reading"></ul></td>
-      <td><ul id="no-buy"></ul></td>    
-      </tr>
-
-    </table>
-   
+    <div class="tabs">
+      <input type="radio" name="tabs" id="tabone" checked="checked">
+      <label for="tabone">En cours</label>
+      <div class="tab">        
+        <ul id="ended"></ul>
+      </div>
+      
+      <input type="radio" name="tabs" id="tabtwo">
+      <label for="tabtwo">Fini</label>
+      <div class="tab">        
+        <ul id="reading"></ul>
+      </div>
+      
+      <input type="radio" name="tabs" id="tabthree">
+      <label for="tabthree">Ne pas acheter !</label>
+      <div class="tab">
+        <ul id="no-buy"></ul>
+      </div>
+    </div>
     
 </body>
 <script
