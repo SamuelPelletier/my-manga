@@ -1,8 +1,26 @@
+body {
+    background-color: black;
+}
+
 h1 {
+    text-align: center;
     color:blue;    
 }
 
 img {
-height: 100px;
-width: 100px;
+height: 150px;
+width: 150px;
+}
+
+table {
+    margin: auto;
+    border: medium solid white;
+    width: 80%;
+}
+
+td, th {
+    color : white;
+    border: medium solid white;
+    border: solid;
+    width:50%;
 }

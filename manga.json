@@ -215,7 +215,7 @@
     },{
         "title":"Sword Art Online",
         "numberBook":17,
-        "cover":"Sword_Art_Online.jpg",
+        "cover":"Sword_Art_online.jpg",
         "status":"no-buy"
     },
     {
@@ -279,7 +279,7 @@
     },{
         "title":"Ino-Head Gargoyle",
         "numberBook":3,
-        "cover":"InoHead_Gargoyle.jpg",
+        "cover":"Inohead_Gargoyle.jpg",
         "status":"no-buy"
     }
 ]
