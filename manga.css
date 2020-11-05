@@ -1,10 +1,24 @@
 body {
-    background-color: black;
-}
+    background: black;
+    min-height: 100vh;
+      box-sizing: border-box;
+      padding-top: 3vh;
+     
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 60rem;
+    margin: 0 auto;
+    font-size: 112%;
+  }
+  
 
 h1 {
     text-align: center;
-    color:blue;    
+    color:#90CAF9;;    
+}
+li{
+    list-style: none;;
 }
 
 img {
@@ -62,16 +76,21 @@ width: 150px;
 /**
  * Generic Styling
 */
-body {
-  background: #eee;
-  min-height: 100vh;
-	box-sizing: border-box;
-	padding-top: 10vh;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  font-weight: 300;
-  line-height: 1.5;
-  max-width: 60rem;
-  margin: 0 auto;
-  font-size: 112%;
+
+
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
 }
+
+input,
+label {
+  margin: .4rem 0;
+}
+
+
+
+
+
+
 
