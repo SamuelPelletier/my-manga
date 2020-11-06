@@ -1,29 +1,40 @@
 body {
-    background: black;
+  background-color: black;
     min-height: 100vh;
       box-sizing: border-box;
-      padding-top: 3vh;
-     
+      padding-top: 3vh;     
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     line-height: 1.5;
     max-width: 60rem;
     margin: 0 auto;
-    font-size: 112%;
+    font-size: 112%;  
+    
   }
   
-
 h1 {
     text-align: center;
-    color:#90CAF9;;    
+    color:#ffffff;    
+    background-image: url(cover/Banniere.jpg); 
+    
 }
+
 li{
-    list-style: none;;
+    list-style: none;
 }
 
 img {
 height: 150px;
 width: 150px;
+}
+
+ul{
+  background-color: 90CAF9;
+  text-align: right;
+  border-radius: 2%;
+  padding-right: 10px;
+  padding-top: 10px; 
+ 
 }
 
 /**

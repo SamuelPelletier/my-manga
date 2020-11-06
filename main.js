@@ -22,7 +22,7 @@ function loadJSON(callback) {
                 $('#reading').append('<li><img src="./cover/'+manga.cover+'"> '+manga.title+' : '+manga.numberBook+'</li>')
                 break;
             case 'ended':
-                $('#ended').append('<li><img src="./cover/'+manga.cover+'"> '+manga.title+' : '+manga.numberBook+'</li>')
+                $('#ended').append('<li>'+manga.title+' : '+manga.numberBook+'<img src="./cover/'+manga.cover+'"> </li>')
                 break;
             case 'no-buy':
                 $('#no-buy').append('<li><img src="./cover/'+manga.cover+'"> '+manga.title+' : '+manga.numberBook+'</li>')
@@ -34,9 +34,33 @@ function loadJSON(callback) {
    });
 
    
+   $(function(liste){
+    var sheetUrl = JSON.parse(liste).mangaJson;
 
 
+    $.getJSON(sheetUrl, function(data){
+      var entry = data.feed.entry;
+      var pseudo = 'darthcrow';
+      var tableau = "<table>";
+      var row = "";
 
+      for (var i = 1; i < entry.length; i += 1){
+
+        var title = entry[i]['title']['$t'];
+        var ships = entry[i]['gsx$'+pseudo]['$t'];
+        if(ships != "")
+          {
+          row += "<tr style='border: 1px solid black;'>";
+          console.log(ships);
+          title = "<td style='border: 1px solid black;'>" + title + "</td>";
+          ships = "<td style='border: 1px solid black;'>" + ships + "</td>";
+          row += title + ships +"</tr>";
+          }
+      };
+        tableau += row + "</tableau>";
+        document.write(tableau);
+    });
+  });
 
 
 
