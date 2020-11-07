@@ -19,13 +19,13 @@ function loadJSON(callback) {
           var manga = mangaJson[i];
           switch (manga.status) {
             case 'reading':
-                $('#reading').append('<li><img src="./cover/'+manga.cover+'"> '+manga.title+' : '+manga.numberBook+'</li>')
+                $('#reading').append('<ul><img src="./cover/'+manga.cover+'"> '+manga.title+' : '+manga.numberBook+'</ul>')
                 break;
             case 'ended':
-                $('#ended').append('<li>'+manga.title+' : '+manga.numberBook+'<img src="./cover/'+manga.cover+'"> </li>')
+                $('#ended').append('<ul><img src="./cover/'+manga.cover+'">'+manga.title+' : '+manga.numberBook+ '</ul>')
                 break;
             case 'no-buy':
-                $('#no-buy').append('<li><img src="./cover/'+manga.cover+'"> '+manga.title+' : '+manga.numberBook+'</li>')
+                $('#no-buy').append('<ul><img src="./cover/'+manga.cover+'"> '+manga.title+' : '+manga.numberBook+'</ul>')
                 break;
             default:
                 break;
@@ -33,34 +33,8 @@ function loadJSON(callback) {
       }
    });
 
-   
-   $(function(liste){
-    var sheetUrl = JSON.parse(liste).mangaJson;
 
-
-    $.getJSON(sheetUrl, function(data){
-      var entry = data.feed.entry;
-      var pseudo = 'darthcrow';
-      var tableau = "<table>";
-      var row = "";
-
-      for (var i = 1; i < entry.length; i += 1){
-
-        var title = entry[i]['title']['$t'];
-        var ships = entry[i]['gsx$'+pseudo]['$t'];
-        if(ships != "")
-          {
-          row += "<tr style='border: 1px solid black;'>";
-          console.log(ships);
-          title = "<td style='border: 1px solid black;'>" + title + "</td>";
-          ships = "<td style='border: 1px solid black;'>" + ships + "</td>";
-          row += title + ships +"</tr>";
-          }
-      };
-        tableau += row + "</tableau>";
-        document.write(tableau);
-    });
-  });
+  
 
 
 
