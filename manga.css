@@ -33,6 +33,7 @@ ul{
   font-size: xx-large;
   border-radius: 10px;
   padding-left: 20px;
+  padding-right: 20px;
   padding-top: 10px;   
   padding-bottom: 10px;
   border: 5px black double;
@@ -95,12 +96,10 @@ ul{
  * Generic Styling
 */
 
-
 label {
   display: block;
   font: 1rem 'Fira Sans', sans-serif;
 }
-
 input,
 label {
   margin: .4rem 0;
