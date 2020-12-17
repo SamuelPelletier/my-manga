@@ -108,6 +108,11 @@
         "cover":"Kid.jpg",
         "status":"ended"
     },{
+        "title":"Monster",
+        "numberBook":9,
+        "cover":"Monster.jpg",
+        "status":"ended"
+    },{
         "title":"Prophecy",
         "numberBook":2,
         "cover":"Prophecy.jpg",
@@ -164,7 +169,7 @@
         "status":"reading"
     },{
         "title":"Triage X",
-        "numberBook":18,
+        "numberBook":19,
         "cover":"Triage_X.jpg",
         "status":"reading"
     },{
@@ -184,7 +189,7 @@
         "status":"reading"
     },{
         "title":"Les chaventure de Tai et mamie Sue",
-        "numberBook":2,
+        "numberBook":3,
         "cover":"Tai_Mamie_Sue.jpg",
         "status":"reading"
     },{
@@ -196,11 +201,6 @@
         "title":"Aime ton prochain",
         "numberBook":4,
         "cover":"Aime_Ton_Prochain.jpg",
-        "status":"reading"
-    },{
-        "title":"Monster",
-        "numberBook":6,
-        "cover":"Monster.jpg",
         "status":"reading"
     },{
         "title":"Magical Girl Site",
